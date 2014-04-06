@@ -16,3 +16,16 @@ vCenter and SCVMM are great tools but do require extra licensing.
 Why should you need a full license if the only thing you have at a remote site is a single server (meaning no need for more than 32GB, vMotion, DRS, HA etc) and the need to check how things are running.
 Why should you need to run Nagios or ZenOSS (both great tools) if you only want basic monitoring and don't need the extra complexity in managing full blown management platforms.
 
+How
+---
+vRoBo will be likely provided as a virtual appliance.
+Technologies used :
+- Perl
+- vSphere Perl SDK (maybe libvirt in the future for other hypervisors support)
+- nginx as a lighweight webserver
+- ChartJS for graphs
+
+
+NOT used :
+- Java
+- Big Database engine
